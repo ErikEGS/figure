@@ -15,8 +15,9 @@ public class Triangle extends Figure {
         if (i >= y && j - i >= x) {
           System.out.print(color.getColor() + "* ");
         } else {
-          if (j - i > x)
-          System.out.print(" ");
+          if (i < size + y) {
+            System.out.print(" ");
+          }
         }
       }
       if ( i < size + y) {
@@ -24,4 +25,5 @@ public class Triangle extends Figure {
       }
     }
   }
+
 }

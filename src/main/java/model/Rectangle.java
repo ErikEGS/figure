@@ -23,6 +23,7 @@ public class Rectangle extends Figure {
       System.out.println();
     }
   }
+
 }
 
 
